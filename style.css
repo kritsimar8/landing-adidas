@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100px;
+    padding:0 40px;
+    display:flex;
+    justify-content:space-between;
+    font-family:"Kobe";
+    font-weight:400;
+    text-transform:uppercase;
+    line-height:100px;
+    color:#fff;
+}
+
+.site-menu{
+    display:flex;
+}
+.menu-item{
+    margin-left:60px;
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    height:300px;
+}
+
+.block{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.b-1{
+    background: url("https://www.soccerbible.com/media/150720/712x1032-messi-adidas_0001_2023-05-31_adidas_leo_messi_flavien_prioreau_02_0106.jpg") 10% 10% no-repeat;
+    background-size: cover;
+}
+.b-2{
+    background: url("https://i1.t4s.cz/galleries/75/131142.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-3{
+    background: url("https://images.solecollector.com/complex/image/upload/h7r0c1gwju2j3ytxt6km.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-4{
+    background: url("https://thebridge.in/wp-content/uploads/2020/05/Hima-Das.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-5{
+    background: url("https://images.unsplash.com/photo-1600269453060-0aaa283dee6e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-6{
+    background: url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F03%2Fadidas-ready-multisport-collection-release-david-beckham-1.jpg?cbr=1&q=90") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-7{
+    background: url("https://images.unsplash.com/photo-1614632537197-38a17061c2bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") 50% 50% no-repeat;
+    background-size: cover;
+}
+.b-8{
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/744/261/desktop-wallpaper-adidas-logo-white-instagram-backgrounds-adidas-black.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:50vh;
+    bottom:-10rem;
+    background: #000;
+}
+.title{
+    margin-top:20rem;
+    text-align:center;
+    font-family:"Canopee";
+    font-size:7rem;
+    color:#fff;
+    overflow:hidden;
+}
+.title .letter{
+    display:inline-block;
+    line-height:1em;
+}
